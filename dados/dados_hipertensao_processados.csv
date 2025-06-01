@@ -1,0 +1,11 @@
+record_id,redcap_repeat_instrument,redcap_repeat_instance,patient_id,idade,sexo,imc,pressao_sistolica,pressao_diastolica,frequencia_cardiaca,medicacao___1,medicacao___2,medicacao___3,medicacao___4,medicacao___5,complicacao,tipo_complicacao,formulario_hipertensao_complete,pressao_media,classificacao_hipertensao
+1,formulario_hipertensao,1,Lucas,29.0,Masculino,,120.0,,90.0,0,0,0,0,0,0.0,,2,,Normotenso
+2,formulario_hipertensao,1,Paulo,33.0,Masculino,20.0,120.0,80.0,88.0,0,0,0,0,0,0.0,,2,93.33333333333333,Normotenso
+3,formulario_hipertensao,1,Lucia,83.0,Feminino,20.0,110.0,70.0,80.0,0,0,0,0,1,0.0,,2,83.33333333333333,Normotenso
+4,formulario_hipertensao,1,Flavio,21.0,Masculino,30.0,150.0,90.0,89.0,0,0,0,0,0,1.0,Hipertensão,2,110.0,Hipertenso
+5,formulario_hipertensao,1,Luna,70.0,Feminino,22.0,140.0,90.0,80.0,0,0,0,0,0,0.0,,2,106.66666666666667,Hipertenso
+6,formulario_hipertensao,1,Marcio,50.0,Masculino,32.0,160.0,90.0,92.0,0,0,0,0,0,1.0,Hipertensão,2,113.33333333333333,Hipertenso
+7,formulario_hipertensao,1,Flavia,30.0,Feminino,18.0,120.0,80.0,78.0,0,0,0,0,0,0.0,,2,93.33333333333333,Normotenso
+8,formulario_hipertensao,1,Bete,45.0,Feminino,20.0,130.0,90.0,70.0,0,0,0,0,0,0.0,,2,103.33333333333333,Hipertenso
+9,formulario_hipertensao,1,Renata,39.0,Feminino,26.0,130.0,80.0,80.0,0,0,0,0,0,0.0,,2,96.66666666666667,Normotenso
+10,formulario_hipertensao,1,Mauro,66.0,Masculino,30.0,150.0,90.0,72.0,0,0,0,0,0,1.0,Hipertensão,2,110.0,Hipertenso
