@@ -1,12 +1,12 @@
 
 # Projeto: Gerenciamento de Dados em Estudo Clínico Simulado sobre Hipertensão
 
-## 📌 Objetivo do Projeto  
+##  Objetivo do Projeto  
 Desenvolver um sistema integrado para coleta, tratamento, análise e modelagem preditiva de dados clínicos simulados, com foco em hipertensão. O projeto demonstra competências em pesquisa clínica, ciência de dados e boas práticas em saúde.
 
 ---
 
-## 🧭 Visão Geral do Pipeline
+##  Visão Geral do Pipeline
 
 1. **REDCap:** Criação e estruturação de um banco de dados clínico padronizado.  
 2. **ETL com Python:** Exportação e transformação dos dados para análise.  
@@ -15,9 +15,9 @@ Desenvolver um sistema integrado para coleta, tratamento, análise e modelagem p
 
 ---
 
-## 🏥 Etapa 1: Configuração do Banco de Dados no REDCap
+##  Etapa 1: Configuração do Banco de Dados no REDCap
 
-### ✅ Estrutura dos Campos Criados
+###  Estrutura dos Campos Criados
 
 - **Informações Demográficas:**  
   - `patient_id`, `idade`, `sexo`, `imc`  
@@ -30,27 +30,27 @@ Desenvolver um sistema integrado para coleta, tratamento, análise e modelagem p
 
 ---
 
-## 🧪 Etapa 2: Geração de Dados Fictícios
+##  Etapa 2: Geração de Dados Fictícios
 
-### 📋 Inserção Manual  
+###  Inserção Manual  
 - 20 a 30 registros fictícios no REDCap.
 
-### 🤖 Geração com Python  
+###  Geração com Python  
 - Script para gerar dados aleatórios realistas seguindo a estrutura do banco.
 
-**✔ Resultado:** Base ampliada e diversificada para validação do pipeline.
+** Resultado:** Base ampliada e diversificada para validação do pipeline.
 
 ---
 
-## ⚙️ Etapa 3: ETL e Análise com Python e Power BI
+##  Etapa 3: ETL e Análise com Python e Power BI
 
-### 📥 Coleta dos Dados  
+###  Coleta dos Dados  
 - Exportação do REDCap em formato `.csv`.
 
-### 🔧 Processamento ETL (Python)  
+###  Processamento ETL (Python)  
 - Limpeza, normalização, enriquecimento e tratamento de faltantes.
 
-### 📊 Visualização (Power BI)  
+###  Visualização (Power BI)  
 - Métricas apresentadas:
   - Distribuição por sexo e idade
   - Médias de pressão arterial
@@ -58,36 +58,36 @@ Desenvolver um sistema integrado para coleta, tratamento, análise e modelagem p
   - Complicações por tipo de medicamento
   - Tendência temporal da pressão arterial
 
-**✔ Resultado:** Transformação de dados brutos em insights visuais e acionáveis.
+** Resultado:** Transformação de dados brutos em insights visuais e acionáveis.
 
 ---
 
-## 🤖 Etapa 4: Modelo Preditivo (IA)
+##  Etapa 4: Modelo Preditivo (IA)
 
-### 🎯 Objetivo  
+###  Objetivo  
 Prever risco de complicações em pacientes hipertensos com base em variáveis clínicas.
 
-### 🧹 Preparação dos Dados  
+###  Preparação dos Dados  
 - Seleção de 5 variáveis  
 - Tratamento de faltantes  
 - Normalização  
 - Divisão treino/teste  
 
-### 🧠 Modelagem  
+###  Modelagem  
 - Algoritmo: Random Forest  
 - Ajustes para dados desbalanceados  
 - Avaliação: Acurácia, Recall, Precisão, F1-score  
 - Interpretação: Importância das variáveis  
 
-### 🚀 Deploy  
+###  Deploy  
 - Salvamento do modelo  
 - Função de previsão com tratamento de erros  
 
-**✔ Resultado:** Solução preditiva robusta, clara e reutilizável.
+** Resultado:** Solução preditiva robusta, clara e reutilizável.
 
 ---
 
-## ✅ Boas Práticas Implementadas
+##  Boas Práticas Implementadas
 
 - **Documentação:** Código comentado e README completo  
 - **Qualidade dos Dados:** Tratamento de valores ausentes e inconsistências  
@@ -96,22 +96,22 @@ Prever risco de complicações em pacientes hipertensos com base em variáveis c
 
 ---
 
-## 📽 Como Apresentar o Projeto
+##  Como Apresentar o Projeto
 
-### 🔄 ETL  
+###  ETL  
 - Comparação entre dados brutos e tratados  
 - Justificativas para cada transformação  
 
-### 📈 Dashboard  
+###  Dashboard  
 - Filtros por idade, sexo, risco  
 - Insights visuais (ex: IMC x pressão arterial)  
 
-### 🧮 Modelo Preditivo  
+###  Modelo Preditivo  
 - Resultados das métricas  
 - Simulações (ex: “Paciente X com 30% de risco”)  
 - Interpretação das variáveis mais relevantes  
 
 ---
 
-## 🎯 Objetivo Final  
+##  Objetivo Final  
 Construir um pipeline de ponta a ponta para dados clínicos simulados, garantindo **qualidade, segurança e reprodutibilidade**, com entrega de valor por meio de dashboards interativos e modelos de IA aplicáveis à prática clínica.
