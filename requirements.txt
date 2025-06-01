@@ -1,0 +1,15 @@
+# Geração de dados simulados
+faker==24.8.0
+
+# Manipulação de dados
+pandas==2.2.2
+numpy==1.26.4
+
+# Machine Learning
+scikit-learn==1.4.2
+joblib==1.4.2
+
+# Jupyter Notebook (caso use notebooks para documentação)
+jupyter==1.0.0
+notebook==7.2.0
+ipykernel==6.29.4

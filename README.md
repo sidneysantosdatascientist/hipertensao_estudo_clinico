@@ -1,97 +1,117 @@
-Projeto: Gerenciamento de Dados em Estudo Clínico Simulado sobre Hipertensão
-  Objetivo do Projeto
+
+# Projeto: Gerenciamento de Dados em Estudo Clínico Simulado sobre Hipertensão
+
+## 📌 Objetivo do Projeto  
 Desenvolver um sistema integrado para coleta, tratamento, análise e modelagem preditiva de dados clínicos simulados, com foco em hipertensão. O projeto demonstra competências em pesquisa clínica, ciência de dados e boas práticas em saúde.
 
-  Visão Geral do Pipeline
-REDCap: Criação e estruturação de um banco de dados clínico padronizado.
+---
 
-ETL com Python: Exportação e transformação dos dados para análise.
+## 🧭 Visão Geral do Pipeline
 
-Dashboard com Power BI: Visualização interativa dos dados.
+1. **REDCap:** Criação e estruturação de um banco de dados clínico padronizado.  
+2. **ETL com Python:** Exportação e transformação dos dados para análise.  
+3. **Dashboard com Power BI:** Visualização interativa dos dados.  
+4. **Modelo Preditivo:** Aplicação de IA para prever risco de complicações.  
 
-Modelo Preditivo: Aplicação de IA para prever risco de complicações.
+---
 
-  Etapa 1: Configuração do Banco de Dados no REDCap
-  Estrutura dos Campos Criados
-Informações Demográficas:
+## 🏥 Etapa 1: Configuração do Banco de Dados no REDCap
 
-patient_id, idade, sexo, imc
+### ✅ Estrutura dos Campos Criados
 
-Medidas Clínicas:
+- **Informações Demográficas:**  
+  - `patient_id`, `idade`, `sexo`, `imc`  
+- **Medidas Clínicas:**  
+  - `pressao_sistolica`, `pressao_diastolica`, `frequencia_cardiaca`, `medicacao`  
+- **Desfecho Clínico:**  
+  - `complicacao`, `tipo_complicacao`  
 
-pressao_sistolica, pressao_diastolica, frequencia_cardiaca, medicacao
+**✔ Resultado:** Base compatível com análise estatística e preditiva, promovendo padronização e qualidade dos dados.
 
-Desfecho Clínico:
+---
 
-complicacao, tipo_complicacao
+## 🧪 Etapa 2: Geração de Dados Fictícios
 
-  Resultado: Base compatível com análise estatística e preditiva, promovendo padronização e qualidade dos dados.
+### 📋 Inserção Manual  
+- 20 a 30 registros fictícios no REDCap.
 
-  Etapa 2: Geração de Dados Fictícios
-  Inserção Manual
-20 a 30 registros fictícios no REDCap.
+### 🤖 Geração com Python  
+- Script para gerar dados aleatórios realistas seguindo a estrutura do banco.
 
-  Geração com Python
-Script para gerar dados aleatórios realistas seguindo a estrutura do banco.
+**✔ Resultado:** Base ampliada e diversificada para validação do pipeline.
 
-  Resultado: Base ampliada e diversificada para validação do pipeline.
+---
 
-  Etapa 3: ETL e Análise com Python e Power BI
-  Coleta dos Dados
-Exportação do REDCap em formato .csv.
+## ⚙️ Etapa 3: ETL e Análise com Python e Power BI
 
-  Processamento ETL (Python)
-Limpeza, normalização, enriquecimento e tratamento de faltantes.
+### 📥 Coleta dos Dados  
+- Exportação do REDCap em formato `.csv`.
 
-  Visualização (Power BI)
-Métricas apresentadas:
+### 🔧 Processamento ETL (Python)  
+- Limpeza, normalização, enriquecimento e tratamento de faltantes.
 
-Distribuição por sexo e idade
+### 📊 Visualização (Power BI)  
+- Métricas apresentadas:
+  - Distribuição por sexo e idade
+  - Médias de pressão arterial
+  - Correlação entre IMC e pressão
+  - Complicações por tipo de medicamento
+  - Tendência temporal da pressão arterial
 
-Médias de pressão arterial
+**✔ Resultado:** Transformação de dados brutos em insights visuais e acionáveis.
 
-Correlação entre IMC e pressão
+---
 
-Complicações por tipo de medicamento
+## 🤖 Etapa 4: Modelo Preditivo (IA)
 
-Tendência temporal da pressão arterial
-
-  Resultado: Transformação de dados brutos em insights visuais e acionáveis.
-
-  Etapa 4: Modelo Preditivo (IA)
-  Objetivo
+### 🎯 Objetivo  
 Prever risco de complicações em pacientes hipertensos com base em variáveis clínicas.
 
-  Preparação dos Dados
-Seleção de 5 variáveis
+### 🧹 Preparação dos Dados  
+- Seleção de 5 variáveis  
+- Tratamento de faltantes  
+- Normalização  
+- Divisão treino/teste  
 
-Tratamento de faltantes
+### 🧠 Modelagem  
+- Algoritmo: Random Forest  
+- Ajustes para dados desbalanceados  
+- Avaliação: Acurácia, Recall, Precisão, F1-score  
+- Interpretação: Importância das variáveis  
 
-Normalização
+### 🚀 Deploy  
+- Salvamento do modelo  
+- Função de previsão com tratamento de erros  
 
-Divisão treino/teste
+**✔ Resultado:** Solução preditiva robusta, clara e reutilizável.
 
-  Modelagem
-Algoritmo: Random Forest
+---
 
-Ajustes para dados desbalanceados
+## ✅ Boas Práticas Implementadas
 
-Avaliação: Acurácia, Recall, Precisão, F1-score
+- **Documentação:** Código comentado e README completo  
+- **Qualidade dos Dados:** Tratamento de valores ausentes e inconsistências  
+- **Segurança:** Dados anonimizados (uso de IDs)  
+- **Reprodutibilidade:** Uso de `random seed` e `requirements.txt`  
 
-Interpretação: Importância das variáveis
+---
 
-  Deploy
-Salvamento do modelo
+## 📽 Como Apresentar o Projeto
 
-Função de previsão com tratamento de erros
+### 🔄 ETL  
+- Comparação entre dados brutos e tratados  
+- Justificativas para cada transformação  
 
-  Resultado: Solução preditiva robusta, clara e reutilizável.
+### 📈 Dashboard  
+- Filtros por idade, sexo, risco  
+- Insights visuais (ex: IMC x pressão arterial)  
 
-  Boas Práticas Implementadas
-Documentação: Código comentado e README completo
+### 🧮 Modelo Preditivo  
+- Resultados das métricas  
+- Simulações (ex: “Paciente X com 30% de risco”)  
+- Interpretação das variáveis mais relevantes  
 
-Qualidade dos Dados: Tratamento de valores ausentes e inconsistências
+---
 
-Segurança: Dados anonimizados (uso de IDs)
-
-Reprodutibilidade: Uso de random seed e requirements.txt
+## 🎯 Objetivo Final  
+Construir um pipeline de ponta a ponta para dados clínicos simulados, garantindo **qualidade, segurança e reprodutibilidade**, com entrega de valor por meio de dashboards interativos e modelos de IA aplicáveis à prática clínica.
