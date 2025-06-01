@@ -26,7 +26,7 @@ Desenvolver um sistema integrado para coleta, tratamento, análise e modelagem p
 - **Desfecho Clínico:**  
   - `complicacao`, `tipo_complicacao`  
 
-**✔ Resultado:** Base compatível com análise estatística e preditiva, promovendo padronização e qualidade dos dados.
+** Resultado:** Base compatível com análise estatística e preditiva, promovendo padronização e qualidade dos dados.
 
 ---
 
